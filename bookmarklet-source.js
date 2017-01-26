@@ -1,4 +1,3 @@
-
     Element.prototype.hasClass = function (className) {
         return ( (" " + this.className + " ").replace(/[\n\t]/g, " ").indexOf(" " + className + " ") > -1 );
     };
@@ -147,18 +146,18 @@
         }
 
         var scs = [
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/beautify.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/beautify-css.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/beautify-html.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/sanitytest.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/beautify-javascript-tests.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/beautify-css-tests.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/beautify-html-tests.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/javascriptobfuscator_unpacker.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/urlencode_unpacker.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/p_a_c_k_e_r_unpacker.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/myobfuscate_unpacker.js",
-            "https://raw.githubusercontent.com/flazzarotto/automatic-textarea-bookmarklet/master/lib/ace.js"
+            "//bookmarklet.argus-lab.com/lib/beautify.js",
+            "//bookmarklet.argus-lab.com/lib/beautify-css.js",
+            "//bookmarklet.argus-lab.com/lib/beautify-html.js",
+            "//bookmarklet.argus-lab.com/lib/sanitytest.js",
+            "//bookmarklet.argus-lab.com/lib/beautify-javascript-tests.js",
+            "//bookmarklet.argus-lab.com/lib/beautify-css-tests.js",
+            "//bookmarklet.argus-lab.com/lib/beautify-html-tests.js",
+            "//bookmarklet.argus-lab.com/lib/javascriptobfuscator_unpacker.js",
+            "//bookmarklet.argus-lab.com/lib/urlencode_unpacker.js",
+            "//bookmarklet.argus-lab.com/lib/p_a_c_k_e_r_unpacker.js",
+            "//bookmarklet.argus-lab.com/lib/myobfuscate_unpacker.js",
+            "//bookmarklet.argus-lab.com/lib/ace.js"
         ];
 
         codeLoader(scs, function (Utils) {

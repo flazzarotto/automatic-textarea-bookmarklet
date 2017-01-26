@@ -157,7 +157,7 @@
             "//bookmarklet.argus-lab.com/lib/urlencode_unpacker.js",
             "//bookmarklet.argus-lab.com/lib/p_a_c_k_e_r_unpacker.js",
             "//bookmarklet.argus-lab.com/lib/myobfuscate_unpacker.js",
-            "//bookmarklet.argus-lab.com/lib/ace.js"
+            "//ace.c9.io/build/src/ace.js"
         ];
 
         codeLoader(scs, function (Utils) {

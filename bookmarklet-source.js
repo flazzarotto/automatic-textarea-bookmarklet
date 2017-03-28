@@ -146,18 +146,18 @@
         }
 
         var scs = [
-            "//bookmarklet.argus-lab.com/lib/beautify.js",
-            "//bookmarklet.argus-lab.com/lib/beautify-css.js",
-            "//bookmarklet.argus-lab.com/lib/beautify-html.js",
-            "//bookmarklet.argus-lab.com/lib/sanitytest.js",
-            "//bookmarklet.argus-lab.com/lib/beautify-javascript-tests.js",
-            "//bookmarklet.argus-lab.com/lib/beautify-css-tests.js",
-            "//bookmarklet.argus-lab.com/lib/beautify-html-tests.js",
-            "//bookmarklet.argus-lab.com/lib/javascriptobfuscator_unpacker.js",
-            "//bookmarklet.argus-lab.com/lib/urlencode_unpacker.js",
-            "//bookmarklet.argus-lab.com/lib/p_a_c_k_e_r_unpacker.js",
-            "//bookmarklet.argus-lab.com/lib/myobfuscate_unpacker.js",
-            "//ace.c9.io/build/src/ace.js"
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/beautify.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/beautify-css.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/beautify-html.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/sanitytest.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/beautify-javascript-tests.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/beautify-css-tests.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/beautify-html-tests.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/javascriptobfuscator_unpacker.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/urlencode_unpacker.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/p_a_c_k_e_r_unpacker.js",
+            "https://bookmarklet.argus-lab.combookmarklet.argus-lab.com/lib/myobfuscate_unpacker.js",
+            "https://bookmarklet.argus-lab.com/lib/ace.js"
         ];
 
         codeLoader(scs, function (Utils) {
